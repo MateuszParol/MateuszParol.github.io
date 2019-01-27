@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow: hidden;
+}
+
+@font-face  {
+    font-family: 'NewFont';
+    src: url('img/GreatVibes-Regular.ttf')
+}
+
+@font-face  {
+    font-family: 'NewFont2';
+    src: url('img/Hefty-Normal.otf')
+}
+.wrapper {
+  background-color: black;
+  background: url('img/006.jpg') no-repeat center;
+  background-size: cover;
+  text-align: center;
+  font-size: 25px;
+  font-family: 'NewFont2';
+  height: 100vh;
+  width: 100%;
+  position: relative;
+}
+
+.clickonme {
+    position: absolute;
+    font-family: "NewFont";
+    color: #1e1a1e;
+    bottom: 0;
+    right: 0.5vw;
+}
+
+.toseemore {
+    position: absolute;
+    font-family: "NewFont";
+    color: #1e1a1e;
+    bottom: 0;
+    left: 0.5vw;
+    color: #e7ddd8;
+}
+
+.githab {
+    height: 10vh;
+    width: 10vw;
+}
+
+#header{
+    padding-top: 7vh;
+}
+
+.wrapper p{
+    padding: 4vh 0vh 0vh 0vh;
+}
+
+.wrapper p {
+    font-size: 40px;
+}
+
+.skills {
+    /* display: flex;
+    justify-content: space-around; */
+}
+
+
+.react {
+    height: 20vh;
+    width: 15vw;
+}
+
+.js {
+    height: 10vh;
+    width: 5vw;
+}
+
+.triple {
+    height: 20vh;
+    width: 20vw;
+}
+
+.css {
+    height: 9.5vh;
+    width: 4vw;
+}
+
+.html {
+    height: 10vh;
+    width: 5vw;
+}
+
+.oko {
+  height: 25vh;
+  width: 13vw;
+  background: url('img/ja.jpg') no-repeat center;
+  background-size: contain;
+  border-radius: 50%;
+  cursor: pointer;
+  bottom: 40vh;
+  left: 43.5vw;
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  transition: all 3s ease-in-out;
+  z-index: 1000;
+}
+
+img {
+    width: 100%;
+    height: auto
+}
+
+.tekst1 {
+    position: absolute;
+    right: 5vh;
+    color: #1e1a1e;
+    margin-top: 5vh;
+    font-family: 'NewFont';
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.tekst2 {
+    position: absolute;
+    left: 5vh;
+    color: #e7ddd8;
+    margin-top: 5vh;
+    font-family: 'NewFont';
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.lewe {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  /* justify-content: center; */
+  left: 0;
+  /* flex: 1 1 0; */
+  position: absolute;
+  background-color: grey;
+  transition: all 3s ease-in-out;
+}
+
+.prawe {
+  height: 100vh;
+  width: 50vw;
+  display: flex;
+  /* justify-content: flex-start; */
+  position: absolute;
+  left: 50vw;
+  /* flex: 1 1 0; */
+  background-color: papayawhip;
+  transition: all 3s ease-in-out;
+}
